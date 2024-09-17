@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+body {
+  font-family: 'Poppins';
+  height: 100vh; /* Set the height to the full viewport */
+  margin: 0; /* Remove default body margins */
+  display: flex;
+  flex-direction: column; /* Arrange elements in a column */
+  align-items: center; /* Center items horizontally */
+  justify-content: center; /* Center items vertically */
+  background-image: url('bg.png'); /* Background for the entire page */
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  overflow: hidden; /* Prevent scrolling */
+}
+h3{
+  font-family: 'Poppins';
+}
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 400px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: rgba(249, 249, 249, 0.5); /* Solid background color for the login box */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-top: 80px; /* Adjust margin-top to ensure the login box is below the fixed top banner */
+}
+
+input {
+  width: calc(100% - 24px);
+  padding: 12px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+}
+
+button {
+  width: calc(100% - 24px);
+  padding: 12px;
+  background-color: #278092;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #1e6375;
+}
+
+h2 {
+  margin-bottom: 20px;
+}
+
+p {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #d9534f;
+}
+
+.error {
+  color: #d9534f;
+  font-size: 14px;
+  margin-top: -10px;
+  margin-bottom: 10px;
+}
